@@ -1,0 +1,45 @@
+{"intents" :[
+
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi", "good day", "Greetings"],
+    "responses": ["Hello!", "What can I do for you?"]
+    },
+
+    {"tag": "goodbye",
+    "patterns": ["cya","See you later","Goodbye", "I am leaving"],
+    "responses": ["Goodbye!", "Talk to me again!"]
+    },
+
+    {"tag": "name",
+    "patterns": ["what is your name","what should I call you","who are you"],
+    "responses": ["My name is MediChat. Nice to Meet You!"]
+    },
+
+    {"tag": "eye",
+    "patterns": ["pain in eye","red eye","eye swelling", "eyes feel itchy",
+                "eye has pus coming out","blurry vision","cannot see problem"],
+    "responses": ["This problem is likely eye-related. You should see a doctor!"]
+    },
+
+    {"tag": "gastrointestinal",
+    "patterns": ["abdominal pain","burning in the stomach","nausea", "heartburn", 
+                "vomiting", "constipation", "diarrhea"],
+    "responses": ["This problem is likely gastrointestinal-related. You should see a doctor!"]
+    },
+
+    {"tag": "UTI",
+    "patterns": ["urinate blood", "painful urination"],
+    "responses": ["This problem is likely urinary tract infection. You should see a doctor and get some antibiotics!"]
+    },
+
+    {"tag": "emergency",
+    "patterns": ["sharp chest pain", "Fainting", "Sudden dizziness", "Bleeding cannot stop","sudden blindness"],
+    "responses": ["This an emergency. You should see a doctor immediately!"]
+    },
+
+    {"tag": "heart",
+    "patterns": ["heartbeat irregular", "palpitation", "cannot breathe", "dizziness"],
+    "responses": ["This problem is likely heart-related. You should see a doctor!"]
+    }
+
+]}
